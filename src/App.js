@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./custom.scss"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
