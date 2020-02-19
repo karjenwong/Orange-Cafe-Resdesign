@@ -13,6 +13,9 @@
   margin: 0 1rem;
   text-align: center;
 }
+.beige{
+  background-color: beige;
+}
 .red {
   color: red;
 }
@@ -30,7 +33,6 @@
   justify-content: center;
 }
 
-
 .margin {
   margin: 0 0.5rem;
 }
@@ -41,9 +43,48 @@
 }
 
 .contactInfoContainer {
-  display:flex;
-
+  display: flex;
+  justify-content: space-around;
   div {
-    justify-content: center;
+    text-align:center
+  }
+}
+
+.cardImage {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#conceptImage {
+  background-image: url('/images/ramen_salad.png');
+}
+#pastaImage {
+  background-image: url('/images/pasta.png');
+}
+#cakeImage {
+  background-image: url('/images/cake.png');
+}
+
+.marginTop {
+  margin-top: 1rem;
+}
+
+.filler {
+  height: 100px;
+}
+.facebookPlaceHolder {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hours{
+  div {
+    display:flex;
+    justify-content: space-between;
+    min-width:178px;
   }
 }

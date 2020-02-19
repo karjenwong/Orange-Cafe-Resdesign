@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 import Menu from "./Components/Menu";
 import Gallery from "./Components/Gallery";
 import LinkContainer from "react-router-bootstrap/lib/LinkContainer";
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -50,6 +51,8 @@ function App() {
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={Contact} />
           </Switch>
+          <Footer/>
+          <section className="filler"></section>
         </div>
       </Router>
     </div>
